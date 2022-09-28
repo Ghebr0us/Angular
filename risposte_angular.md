@@ -23,7 +23,7 @@ npm i -v \@angular/cli
 
 > ng new angular-app
 
-## **00.1 - \[TEO\]-\_\_-\_\_\[ [Introduzione ai Componenti]{.ul} \]\_\_-\_\_-\_\_-\_**
+## **00.1 - \[TEO\]-\_\_-\_\_\[ [Introduzione ai Componenti]**
 
 ## Rispondi alle domande-1°' parte
 
