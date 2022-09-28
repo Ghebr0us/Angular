@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ghebrous';
+  primo : string;
+  constructor(){
+    this.primo = 'app'
+  }
 }

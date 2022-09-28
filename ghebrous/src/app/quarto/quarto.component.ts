@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quarto.component.css']
 })
 export class QuartoComponent implements OnInit {
-
-  constructor() { }
+  quarto : string;
+  constructor() { 
+    this.quarto = 'quarto'
+  }
 
   ngOnInit(): void {
   }
