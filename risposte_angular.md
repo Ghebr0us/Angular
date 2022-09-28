@@ -141,8 +141,7 @@ costituiscono un componente.**
 
 ## **01.1 - \[TEO\] -[ Using Data ]**
 
-1.  **Come si dichiara una proprietà di una classe (variabile visibile a
-    > tutta la classe) in Angular?**
+1.  **Come si dichiara una proprietà di una classe (variabile visibile a tutta la classe) in Angular?**
 
 > prop_name : prop_type;
 >
