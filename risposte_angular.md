@@ -111,22 +111,17 @@ c.  **Il selector?**
 >
 > [**[https://ng-girls.gitbook.io/todo-list-tutorial/workshop-todo-list/component]{.ul}**](https://ng-girls.gitbook.io/todo-list-tutorial/workshop-todo-list/component)
 
-![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image2.png){width="0.20833333333333334in"
-height="0.20833333333333334in"} STILE DEL COMPONENTE**(style(CSS))**
+![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image2.png) STILE DEL COMPONENTE**(style(CSS))**
 
-![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image1.png){width="0.20833333333333334in"
-height="0.20833333333333334in"} HTML DEL COMPONENTE**(Template)**
+![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image1.png)HTML DEL COMPONENTE**(Template)**
 
-![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image4.png){width="0.20833333333333334in"
-height="0.20833333333333334in"}INDICA CHE E' POSSIBILE INCLUDERE
+![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image4.png)INDICA CHE E' POSSIBILE INCLUDERE
 VARIABILI NEL TEMPLATE**(Component)**
 
-![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image5.png){width="0.20833333333333334in"
-height="0.20833333333333334in"}E' POSSIBILE MODIFICARE LA VARIABILE
+![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image5.png)E' POSSIBILE MODIFICARE LA VARIABILE
 PASSATA TRAMITE LE { }**(Pipe)**
 
-![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image3.png){width="0.20833333333333334in"
-height="0.20833333333333334in"}COMPONENTE**(Component)**
+![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image3.png)COMPONENTE**(Component)**
 
 **9) Qual è la convenzione per la nomenclatura dei seguenti file che
 costituiscono un componente.**
