@@ -2,8 +2,7 @@
 
 npm i -v \@angular/cli
 
-**0.0.0.1 - \[LAB\] -\_\_-\_\_ \[ Using Angular in Gitpod
-\]\_\_-\_\_-\_\_-\_**
+**0.0.0.1 - \[LAB\] -[ Using Angular in Gitpod ]**
 
 1.  **Cos'è la Angular CLI**
 
@@ -23,24 +22,6 @@ npm i -v \@angular/cli
 4.  **Qual è il comando per creare una nuova applicazione angular**
 
 > ng new angular-app
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
 
 ## **00.1 - \[TEO\]-\_\_-\_\_\[ [Introduzione ai Componenti]{.ul} \]\_\_-\_\_-\_\_-\_**
 
@@ -64,7 +45,6 @@ app-root
 
 > ng serve
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### Rispondi alle domande-2°' parte
 
