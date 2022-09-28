@@ -104,8 +104,7 @@ c.  **Il selector?**
 8.  **Descrivi le funzionalità riassunte nella seguente immagine
     > (descrivi ogni rettangolo)**
 
-> ![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image7.png){width="4.46875in"
-> height="3.1979166666666665in"}
+> ![](vertopal_42b83c0aa9ec4bdfa06f35bd75cda3eb/media/image7.png)
 >
 > **(puo' aiutare)**
 >
