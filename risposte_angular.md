@@ -139,7 +139,7 @@ costituiscono un componente.**
 >
 > hello-world.component.css
 
-## **01.1 - \[TEO\] - -\_\_-\_\_-\_\_-\_\_-\[ [Using Data]{.ul} \]-\_\_-\_\_-\_\_-\_-\_\_-\_**
+## **01.1 - \[TEO\] -[ Using Data ]**
 
 1.  **Come si dichiara una proprietà di una classe (variabile visibile a
     > tutta la classe) in Angular?**
