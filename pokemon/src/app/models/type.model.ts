@@ -1,6 +1,6 @@
 import { Pokemon } from "./pokemon.model";
 
-export class Risultati {
+export class Type {
     count!: number;
-    results!: Pokemon;
+    results!: Pokemon[];
 }

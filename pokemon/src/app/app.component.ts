@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Pokemon } from './models/pokemon.model';
-import { Risultati } from './models/risultati.model';
+import { Type } from './models/type.model';
 
 
 @Component({
@@ -12,18 +12,18 @@ import { Risultati } from './models/risultati.model';
 })
 
 export class AppComponent implements OnInit{
-  obsPokemon!: Observable<any>;
-  data!: any;
+  obsPokemon!: Observable<Type>;
+  data!: Type;
 
   constructor(public http:HttpClient){ }
 
 
   ngOnInit(): void {
-    this.obsPokemon = this.http.get<any>('https://pokeapi.co/api/v2/type')
-    this.obsPokemon.subscribe(this.faiqualcosa)
+    this.obsPokemon = this.http.get<Type>('https://pokeapi.co/api/v2/type')
+    this.obsPokemon.subscribe(this.risultato)
   }
 
-  faiqualcosa = (data: any) => {
+  risultato = (data: Type) => {
     this.data = data;
     console.log(data.results);
   }
