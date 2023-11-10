@@ -1,1 +1,16 @@
-<p>listpokemon works!</p>
+<div *ngIf="List" class="row">
+    <div class="col-sm-6 col-md-4" *ngFor="let l of List.pokemon">
+        <div class="thumbnail">
+            <div class="content">
+                <div class="caption">
+                    <h3>
+                        <a routerLink="pokemon/:path">
+                            {{l.pokemon.name}}
+                        </a>
+                    </h3>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

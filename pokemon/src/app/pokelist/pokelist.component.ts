@@ -24,8 +24,8 @@ export class PokelistComponent {
     this.data = data;
     console.log(data.results);
   }
-  
-  getLastPart(arg0: string){
+
+  getLastPart(arg0: string) {
     return arg0.split("/")[6]
   }
 }
