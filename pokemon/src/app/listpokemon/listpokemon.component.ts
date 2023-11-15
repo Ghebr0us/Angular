@@ -27,4 +27,11 @@ export class ListpokemonComponent {
     this.List = List;
     console.log(List);
   }
+
+  getLastPart(arg0: string) {
+    const list = arg0.split("/")
+    list.pop()
+    return list.pop()
+
+  }
 }
