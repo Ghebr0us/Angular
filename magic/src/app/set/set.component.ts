@@ -1,31 +1,25 @@
-import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Set } from '../models/set.model';
+import { Set, Welcome } from '../models/set.model';
 @Component({
   selector: 'app-set',
   templateUrl: './set.component.html',
   styleUrls: ['./set.component.css']
 })
 export class SetComponent {
-  obsSet!: Observable<Set>
-  data!: Set;
+  obsSet!: Observable<Welcome>;
+  data!: Welcome;
 
-
-  constructor(public http:HttpClient) {}
-
+  constructor(public http: HttpClient) { }
 
   ngOnInit(): void {
-    this.obsSet = this.http.get<Set>('https://api.magicthegathering.io/v1/sets')
+    this.obsSet = this.http.get<Welcome>('https://api.magicthegathering.io/v1/sets')
     this.obsSet.subscribe(this.risultato)
   }
 
-  risultato = (data: Set) => {
+  risultato = (data: Welcome) => {
     this.data = data;
-    console.log(data.name);
-  }
-
-  getLastPart(arg0: string) {
-    return arg0.split("/")[6]
+    console.log(data.sets);
   }
 }
