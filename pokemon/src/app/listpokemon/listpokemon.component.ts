@@ -32,6 +32,5 @@ export class ListpokemonComponent {
     const list = arg0.split("/")
     list.pop()
     return list.pop()
-
   }
 }

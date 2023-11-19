@@ -1,12 +1,10 @@
 <div *ngIf="data" class="row">
-    <div class="col-sm-6 col-md-4" *ngFor="let d of data.sets">
+    <div class="col-sm-6 col-md-4" *ngFor="let d of data.cards">
         <div class="thumbnail">
             <div class="content">
                 <div class="caption">
                     <h3>
-                        <a routerLink="/sets/{{d.code}}">
-                            {{d.name}}
-                        </a>
+                        asdasd
                     </h3>
                     <br>
                 </div>
@@ -14,3 +12,4 @@
         </div>
     </div>
 </div>
+{{data | json}}

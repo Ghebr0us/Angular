@@ -22,4 +22,7 @@ export class SetComponent {
     this.data = data;
     console.log(data.sets);
   }
+  getCode(){
+
+  }
 }
