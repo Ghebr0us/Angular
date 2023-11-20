@@ -9,20 +9,22 @@ import { Observable } from 'rxjs';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
+  id!: string;
   data!: Welcome;
-  obsRoute!: Observable<ParamMap>
   obsCard!: Observable<Welcome>;
-  constructor(public http: HttpClient, private route: ActivatedRoute) { };
-  ngOnInit(): void {
-    this.obsRoute = this.route.paramMap
-    this.obsRoute.subscribe(this.getRouterParam)
+
+  constructor(public http: HttpClient, private route: ActivatedRoute) {
+    this.route.params.subscribe(paramsId => {
+      this.id = paramsId['id'];
+    });
+    this.obsCard = this.http.get<Welcome>(`https://api.magicthegathering.io/v1/sets/${this.id}/booster`)
+    this.obsCard.subscribe(this.risultato)
   }
-  getRouterParam = (params:ParamMap ) => {
-    let id = params.get('path')
-    if (id != null){
-      this.obsCard = this.http.get<Welcome>('https://api.magicthegathering.io/v1/sets/'+ id)
-      this.obsCard.subscribe((data:any)=> this.data = data)
-    }
+
+  risultato = (data: Welcome) => {
+    this.data = data;
+    console.log(data);
   }
 }
+
 
