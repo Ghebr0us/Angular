@@ -15,7 +15,7 @@ export interface SingleCard {
     card: Card
 }
 
-interface Card {
+export interface Card {
     name:          string;
     manaCost:      string;
     cmc:           number;
