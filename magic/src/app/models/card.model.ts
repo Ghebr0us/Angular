@@ -11,7 +11,11 @@ export interface Welcome {
     cards: Card[];
 }
 
-export interface Card {
+export interface SingleCard {
+    card: Card
+}
+
+interface Card {
     name:          string;
     manaCost:      string;
     cmc:           number;
